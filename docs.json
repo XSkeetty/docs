@@ -77,5 +77,8 @@
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/HoundDark.svg"
+  },
+  "banner": {
+    "content": "🚀 Banner is live! [Learn more](mintlify.com)"
   }
 }
