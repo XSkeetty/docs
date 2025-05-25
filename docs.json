@@ -11,10 +11,10 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Гайды",
+        "tab": "Инструкции",
         "groups": [
           {
-            "group": "Подключения",
+            "group": "Подключение",
             "pages": [
               "connections/ios"
             ]
