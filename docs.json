@@ -57,7 +57,8 @@
         {
           "anchor": "Телеграм канал",
           "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "icon": "telegram",
+          "iconType": "brands"
         },
         {
           "anchor": "Телеграм бот",
