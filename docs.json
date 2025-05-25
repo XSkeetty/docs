@@ -16,13 +16,13 @@
           {
             "group": "Подключение",
             "pages": [
-              "connections/ios",
-              "connections/android",
-              "connections/macos",
-              "connections/windows",
-              "connections/apple_tv",
-              "connections/android_tv",
-              "connections/router"
+              "setup/ios",
+              "setup/android",
+              "setup/macos",
+              "setup/windows",
+              "setup/apple_tv",
+              "setup/android_tv",
+              "setup/router"
             ]
           },
           {
@@ -83,7 +83,7 @@
   },
   "navbar": {
     "links": [{
-      "label": "Switch to English  🇺🇸",
+      "label": "Switch to English",
       "href": "https://t.me/xskeetty"
     }]
   }
