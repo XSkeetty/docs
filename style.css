@@ -1,3 +1,5 @@
 footer, footer * {
   display: none !important;
 }
+
+Content-Security-Policy: script-src 'self';
