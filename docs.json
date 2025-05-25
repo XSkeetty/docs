@@ -56,13 +56,13 @@
       "anchors": [
         {
           "anchor": "Телеграм канал",
-          "href": "https://mintlify.com/docs",
+          "href": "https://t.me/houndvpn",
           "icon": "telegram",
           "iconType": "brands"
         },
         {
           "anchor": "Телеграм бот",
-          "href": "https://mintlify.com/community",
+          "href": "https://t.me/houndvpn_bot",
           "icon": "slack"
         }
       ]
