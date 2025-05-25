@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "maple",
+  "theme": "mint",
   "name": "HoundVPN wiki",
   "colors": {
     "primary": "#4EC392",
