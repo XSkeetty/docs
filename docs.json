@@ -31,6 +31,12 @@
               "adblock",
               "ios_region"
             ]
+          },
+          {
+            "group": "Важное",
+            "pages": [
+              "vpn_dangers"
+            ]
           }
         ]
       }
