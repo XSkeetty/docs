@@ -24,6 +24,13 @@
               "connections/android_tv",
               "connections/router"
             ]
+          },
+          {
+            "group": "Полезное",
+            "pages": [
+              "adblock",
+              "ios_region"
+            ]
           }
         ]
       }
