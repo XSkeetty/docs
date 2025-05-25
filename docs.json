@@ -39,6 +39,17 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Блог",
+        "groups": [
+          {
+            "group": "Важное",
+            "pages": [
+              "vpn_dangers"
+            ]
+          }
+        ]
       }
     ],
     "global": {
