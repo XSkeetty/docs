@@ -16,26 +16,13 @@
           {
             "group": "Подключение",
             "pages": [
-              "connections/ios"
-            ]
-          },
-          {
-            "group": "Get Started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "connections/ios",
+              "connections/android",
+              "connections/macos",
+              "connections/windows",
+              "connections/apple_tv",
+              "connections/android_tv",
+              "connections/router"
             ]
           }
         ]
@@ -44,19 +31,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
+          "anchor": "Телеграм канал",
           "href": "https://mintlify.com/docs",
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Community",
+          "anchor": "Телеграм бот",
           "href": "https://mintlify.com/community",
           "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
         }
       ]
     }
