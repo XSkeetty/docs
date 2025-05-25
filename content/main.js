@@ -1,3 +1,1 @@
-document.addEventListener("DOMContentLoaded", function () {
-  console.log("Пользовательский скрипт загружен!");
-});
+console.log("Пользовательский скрипт загружен!");
