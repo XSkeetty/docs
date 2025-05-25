@@ -80,5 +80,12 @@
   },
   "search": {
     "prompt": "Поиск..."
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Switch to English",
+      "href": "https://t.me/xskeetty"
+    }
   }
 }
