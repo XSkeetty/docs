@@ -44,7 +44,13 @@
         "tab": "Блог",
         "groups": [
           {
-            "group": "Важное",
+            "group": "123",
+            "pages": [
+              "vpn_dangerss"
+            ]
+          },
+          {
+            "group": "321",
             "pages": [
               "vpn_dangerss"
             ]
