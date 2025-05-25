@@ -82,10 +82,9 @@
     "prompt": "Поиск..."
   },
   "navbar": {
-    "primary": {
-      "type": "button",
+    "links": [{
       "label": "Switch to English",
       "href": "https://t.me/xskeetty"
-    }
+    }]
   }
 }
