@@ -1,2 +1,6 @@
 console.log("Скрипт загружен!")
-loader.style.display = 'none';
+const loader = document.getElementById('loader');
+if (loader) {
+  console.log("Loader найден!")
+  loader.style.display = 'none';
+}
