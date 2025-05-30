@@ -2,11 +2,15 @@ footer, footer * {
   display: none !important;
 }
 
-#topbar-cta-button {
+/* Скрываем английские подписи Show / Hide */
+.expandable-trigger > span {
   display: none !important;
 }
 
-.mint-ai-assistant-button,
-.mint-ai-sidebar-toggle {
-  display: none !important;
+/* Добавляем русский текст через псевдоэлемент */
+.expandable-trigger::after {
+  content: 'Показать!! / Скрыть!!'; /* ← ваш текст */
+  font-size: 0.875rem;
+  color: #0070f3; /* можно задать нужный стиль */
+  margin-left: 0.5rem;
 }
