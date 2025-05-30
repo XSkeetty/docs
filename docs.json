@@ -3,9 +3,7 @@
   "theme": "maple",
   "name": "HoundVPN wiki",
   "colors": {
-    "primary": "#03BBA7",
-    "light": "#FFFFFF",
-    "dark": "#000000"
+    "primary": "#03BBA7"
   },
   "background": {
     "decoration": "grid",
