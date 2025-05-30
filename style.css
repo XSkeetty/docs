@@ -1,3 +1,14 @@
 footer, footer * {
   display: none !important;
 }
+
+/*
+Добавление кнопки Английской версии сайта
+Вставить в конец docs.json (после search)
+
+"navbar": {
+    "links": [{
+      "label": "Switch to English",
+      "href": "https://t.me/xskeetty"
+    }]
+  }

@@ -3,9 +3,9 @@
   "theme": "maple",
   "name": "HoundVPN wiki",
   "colors": {
-    "primary": "#4EC392",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#22C55F",
+    "light": "#22C55F",
+    "dark": "#22C55F"
   },
   "favicon": "/favicon.svg",
   "redirects": [
@@ -92,11 +92,5 @@
   },
   "search": {
     "prompt": "Поиск..."
-  },
-  "navbar": {
-    "links": [{
-      "label": "Switch to English",
-      "href": "https://t.me/xskeetty"
-    }]
   }
 }
