@@ -8,9 +8,9 @@
     "dark": "#22C55F"
   },
   "background": {
-    "decoration": "grid",
+    "decoration": "windows",
     "color": {
-      "light": "#ffffff",
+      "light": "#FF0000",
       "dark": "#000000"
     }
   },
