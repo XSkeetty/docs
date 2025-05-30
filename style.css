@@ -1,3 +1,12 @@
 footer, footer * {
   display: none !important;
 }
+
+#topbar-cta-button {
+  display: none !important;
+}
+
+.mint-ai-assistant-button,
+.mint-ai-sidebar-toggle {
+  display: none !important;
+}
