@@ -10,8 +10,8 @@
   "background": {
     "decoration": "grid",
     "color": {
-      "light": "#ffffff",
-      "dark": "#ffffff"
+      "light": "#22C55F",
+      "dark": "#22C55F"
     }
   },
   "favicon": "/favicon.svg",
