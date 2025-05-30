@@ -3,16 +3,12 @@
   "theme": "maple",
   "name": "HoundVPN wiki",
   "colors": {
-    "primary": "#22C55F",
-    "light": "#22C55F",
-    "dark": "#22C55F"
+    "primary": "#03BBA7",
+    "light": "#FFFFFF",
+    "dark": "#000000"
   },
   "background": {
-    "decoration": "gradient",
-    "color": {
-      "light": "#D9D9D9",
-      "dark": "#1E1E1E"
-    }
+    "decoration": "grid"
   },
   "favicon": "/favicon.svg",
   "redirects": [
