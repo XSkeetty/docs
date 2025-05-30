@@ -8,7 +8,9 @@
     "dark": "#000000"
   },
   "background": {
-    "decoration": "grid"
+    "decoration": "grid",
+    "light": "#FFFFFF",
+    "dark": "#000000"
   },
   "favicon": "/favicon.svg",
   "redirects": [
