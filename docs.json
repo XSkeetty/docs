@@ -7,6 +7,13 @@
     "light": "#22C55F",
     "dark": "#22C55F"
   },
+  "background": {
+    "decoration": "grid",
+    "color": {
+      "light": "#ffffff",
+      "dark": "#ffffff"
+    }
+  },
   "favicon": "/favicon.svg",
   "redirects": [
     {
