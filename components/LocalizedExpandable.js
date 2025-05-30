@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 export default function LocalizedExpandable({ title, children }) {
   const [open, setOpen] = useState(false);
+
   return (
     <div className="border rounded-lg my-4 overflow-hidden">
       <button
