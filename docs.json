@@ -8,10 +8,10 @@
     "dark": "#22C55F"
   },
   "background": {
-    "decoration": "windows",
+    "decoration": "gradient",
     "color": {
-      "light": "#FF0000",
-      "dark": "#000000"
+      "light": "#D9D9D9",
+      "dark": "#1E1E1E"
     }
   },
   "favicon": "/favicon.svg",
