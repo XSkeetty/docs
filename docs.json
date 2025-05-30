@@ -10,7 +10,7 @@
   "background": {
     "decoration": "grid",
     "light": "#FFFFFF",
-    "dark": "#000000"
+    "dark": "#131313"
   },
   "appearance": {
     "default": "dark",
