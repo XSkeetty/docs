@@ -1,5 +1,8 @@
 {
   "$schema": "https://mintlify.com/docs.json",
+  "head": [
+    "<meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'self' https:; script-src 'self' https://cdn.logrocket.io https://cdnjs.cloudflare.com https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://*.algolia.net https://*.algolianet.com; font-src 'self' https://fonts.gstatic.com; object-src 'none';\">"
+  ],
   "theme": "linden",
   "name": "HoundVPN wiki",
   "colors": {
