@@ -101,5 +101,10 @@
   },
   "search": {
     "prompt": "Поиск..."
+  },
+  "integrations": {
+    "telemetry": {
+      "enabled": false
+    }
   }
 }
