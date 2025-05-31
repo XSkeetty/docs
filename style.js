@@ -21,30 +21,54 @@
   }
 })();
 
-// Обёртка в IIFE с явными точками с запятой, чтобы не было проблем с ASI.
 ;(function() {
-  // Функция, которая пытается найти тег <script> по URL и удалить его
-  function removeLogRocketScript() {
-    // Ищем все <script> с src, содержащим "cdn.lr-in-prod.com/logger-1.min.js"
-    const scripts = document.querySelectorAll('script[src*="cdn.lr-in-prod.com/logger-1.min.js"]');
+  console.log('[custom.js] Перехватчик создания <script> запущен');
 
-    if (scripts.length) {
-      scripts.forEach((el) => {
-        console.log('[custom.js] Удаляем скрипт LogRocket:', el.src);
-        el.remove();
+  // Сохраняем оригинальную функцию
+  const origCreateElement = Document.prototype.createElement;
+
+  // Патчим document.createElement, чтобы фильтровать скрипты
+  Document.prototype.createElement = function(tagName, options) {
+    const el = origCreateElement.call(this, tagName, options);
+
+    // Если создают <script>, то патчим его src
+    if (tagName.toLowerCase() === 'script') {
+      // Патчим setter на .src
+      Object.defineProperty(el, 'src', {
+        set(value) {
+          // Если src содержит LogRocket URL — не вставляем
+          if (typeof value === 'string' && value.includes('cdn.lr-in-prod.com/logger-1.min.js')) {
+            console.log('[custom.js] Блокируем установку src для LogRocket:', value);
+            return;
+          }
+          // Во всех остальных случаях — даём оригинальный setter
+          HTMLScriptElement.prototype.__lookupSetter__('src').call(this, value);
+        },
+        get() {
+          return HTMLScriptElement.prototype.__lookupGetter__('src').call(this);
+        },
+        configurable: true,
+        enumerable: true
       });
     }
-  }
 
-  // Если DOM ещё загружается, ждём DOMContentLoaded
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => {
-      console.log('[custom.js] DOMContentLoaded — пробуем удалить LogRocket');
-      removeLogRocketScript();
+    return el;
+  };
+
+  // После «патча» можно также попробовать удалить уже добавленные скрипты:
+  if (document.readyState !== 'loading') {
+    const already = document.querySelectorAll('script[src*="cdn.lr-in-prod.com/logger-1.min.js"]');
+    already.forEach((e) => {
+      console.log('[custom.js] Удаляем уже существующий LogRocket:', e.src);
+      e.remove();
     });
   } else {
-    // Если DOM уже готов, сразу вызываем
-    console.log('[custom.js] DOM уже готов (' + document.readyState + ') — сразу удаляем LogRocket');
-    removeLogRocketScript();
+    document.addEventListener('DOMContentLoaded', () => {
+      const alreadyDOM = document.querySelectorAll('script[src*="cdn.lr-in-prod.com/logger-1.min.js"]');
+      alreadyDOM.forEach((e) => {
+        console.log('[custom.js] После DOMContentLoaded — удаляем LogRocket:', e.src);
+        e.remove();
+      });
+    });
   }
 })();
