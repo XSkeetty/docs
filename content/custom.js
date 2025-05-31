@@ -1,4 +1,4 @@
-console.log("До скрипта")
+console.log("До скрипта");
 
 (function() {
   console.log('custom.js: скрипт загружен');
@@ -31,4 +31,4 @@ console.log("До скрипта")
 })();
 
 
-console.log("После скрипта")
+console.log("После скрипта");
