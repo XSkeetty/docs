@@ -1,11 +1,7 @@
-console.log("До скрипта");
+// Локализация "on this page"
 
 (function() {
-  console.log('custom.js: скрипт загружен');
-
   function replaceAllOnThisPage() {
-    console.log('→ replaceAllOnThisPage() запущена');
-    // Ищем все span на странице
     const allSpans = document.querySelectorAll('span');
 
     allSpans.forEach((span) => {
@@ -18,17 +14,12 @@ console.log("До скрипта");
     });
   }
 
-  // Проверяем состояние документа
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => {
       console.log('DOMContentLoaded сработал, вызываем replaceAllOnThisPage()');
       replaceAllOnThisPage();
     });
   } else {
-    console.log('document.readyState != "loading" (', document.readyState, '), вызываем сразу replaceAllOnThisPage()');
     replaceAllOnThisPage();
   }
 })();
-
-
-console.log("После скрипта");
