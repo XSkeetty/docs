@@ -23,9 +23,8 @@
         "anchor": "Documentation",
         "icon": "book-open",
         "pages": [
-          "setup/router",
-          "setup/android_tv",
-          "setup/apple_tv"
+          "test1",
+          "test2"
         ]
       }
     ],
