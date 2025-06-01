@@ -24,6 +24,17 @@
     }
   ],
   "navigation": {
+    "dropdowns": [
+      {
+        "dropdown": "Контакты",
+        "icon": "book-open",
+        "pages": [
+          "setup/ios",
+          "setup/android",
+          "setup/macos"
+        ]
+      }
+    ],
     "tabs": [
       {
         "tab": "Инструкции",
