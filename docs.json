@@ -26,12 +26,6 @@
         "tab": "Инструкции",
         "groups": [
           {
-            "group": "Главная",
-            "pages": [
-              "index"
-            ]
-          },
-          {
             "group": "Подключение",
             "pages": [
               "setup/ios",
