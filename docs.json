@@ -24,25 +24,14 @@
     }
   ],
   "navigation": {
-    "anchors": [
+    "global": {
+      "dropdowns": [
         {
-          "anchor": "Телеграм канал",
-          "href": "https://t.me/houndvpn",
-          "icon": "telegram",
-          "iconType": "brands"
-        },
-        {
-          "anchor": "Телеграм бот",
-          "href": "https://t.me/houndvpn_bot",
-          "icon": "slack"
+          "dropdown": "Blog",
+          "href": "https://external-link.com/blog"
         }
-    ],
-    "dropdowns": [
-      {
-        "dropdown": "Blog",
-        "href": "https://external-link.com/blog"
-      }
-    ],
+      ]
+    },
     "tabs": [
       {
         "tab": "Инструкции",
