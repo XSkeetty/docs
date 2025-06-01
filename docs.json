@@ -51,23 +51,6 @@
             ]
           }
         ]
-      },
-      {
-        "tab": "Блог",
-        "groups": [
-          {
-            "group": "Test1",
-            "pages": [
-              "vpn_dangers1"
-            ]
-          },
-          {
-            "group": "Test2",
-            "pages": [
-              "vpn_dangers2"
-            ]
-          }
-        ]
       }
     ]
   },
