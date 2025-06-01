@@ -24,6 +24,19 @@
     }
   ],
   "navigation": {
+    "anchors": [
+        {
+          "anchor": "Телеграм канал",
+          "href": "https://t.me/houndvpn",
+          "icon": "telegram",
+          "iconType": "brands"
+        },
+        {
+          "anchor": "Телеграм бот",
+          "href": "https://t.me/houndvpn_bot",
+          "icon": "slack"
+        }
+    ],
     "dropdowns": [
       {
         "dropdown": "Blog",
