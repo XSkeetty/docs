@@ -29,6 +29,10 @@
         {
           "dropdown": "Blog",
           "href": "https://external-link.com/blog"
+        },
+        {
+          "dropdown": "Vlog",
+          "href": "https://external-link.com/blog"
         }
       ]
     },
