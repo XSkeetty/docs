@@ -24,33 +24,10 @@
     }
   ],
   "navigation": {
-    "languages": [
-      {
-        "language": "en",
-        "groups": [
-          {
-            "group": "Getting Started",
-            "pages": ["setup/ios", "setup/android"]
-          }
-        ],
-        "language": "ru",
-        "groups": [
-          {
-            "group": "Getting Started",
-            "pages": ["setup/macos"]
-          }
-        ]
-      }
-    ],
     "dropdowns": [
       {
-        "dropdown": "Контакты",
-        "icon": "book-open",
-        "pages": [
-          "setup/ios",
-          "setup/android",
-          "setup/macos"
-        ]
+        "dropdown": "Blog",
+        "href": "https://external-link.com/blog"
       }
     ],
     "tabs": [
