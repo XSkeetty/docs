@@ -24,6 +24,24 @@
     }
   ],
   "navigation": {
+    "languages": [
+      {
+        "language": "en",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": ["setup/ios", "setup/android"]
+          }
+        ],
+        "language": "en",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": ["setup/macos"]
+          }
+        ]
+      }
+    ],
     "dropdowns": [
       {
         "dropdown": "Контакты",
