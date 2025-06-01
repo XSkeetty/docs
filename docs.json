@@ -26,7 +26,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Документация",
+        "tab": "Инструкции",
         "groups": [
           {
             "group": "Главная",
@@ -47,7 +47,7 @@
             ]
           },
           {
-            "group": "Полезное",
+            "group": "Статьи",
             "pages": [
               "adblock",
               "ios_region"
