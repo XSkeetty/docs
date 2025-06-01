@@ -17,25 +17,18 @@
     "strict": true
   },
   "favicon": "/favicon.svg",
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/about"
-    }
-  ],
   "navigation": {
-    "global": {
-      "dropdowns": [
-        {
-          "dropdown": "Blog",
-          "href": "https://external-link.com/blog"
-        },
-        {
-          "dropdown": "Vlog",
-          "href": "https://external-link.com/blog"
-        }
-      ]
-    },
+    "anchors": [
+      {
+        "anchor": "Documentation",
+        "icon": "book-open",
+        "pages": [
+          "setup/router",
+          "setup/android_tv",
+          "setup/apple_tv"
+        ]
+      }
+    ],
     "tabs": [
       {
         "tab": "Инструкции",
