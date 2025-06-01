@@ -18,14 +18,9 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Главная",
-          "href": "https://docs.houndvpn.net/"
-        }
-      ]
-    },
+    "pages": [
+      "index"
+    ],
     "tabs": [
       {
         "tab": "Инструкции",
