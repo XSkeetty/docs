@@ -18,40 +18,10 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
-      {
-        "tab": "Инструкции",
-        "pages": [
-          "index"
-        ],
-        "groups": [
-          {
-            "group": "Подключение",
-            "pages": [
-              "setup/ios",
-              "setup/android",
-              "setup/macos",
-              "setup/windows",
-              "setup/apple_tv",
-              "setup/android_tv",
-              "setup/router"
-            ]
-          },
-          {
-            "group": "Статьи",
-            "pages": [
-              "adblock",
-              "ios_region"
-            ]
-          },
-          {
-            "group": "Важное",
-            "pages": [
-              "vpn_dangers"
-            ]
-          }
-        ]
-      }
+    "pages": [
+      "index",
+      "test1",
+      "test2"
     ]
   },
   "logo": {
