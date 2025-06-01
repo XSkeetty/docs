@@ -18,16 +18,14 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "anchors": [
-      {
-        "anchor": "Documentation",
-        "icon": "book-open",
-        "pages": [
-          "test1",
-          "test2"
-        ]
-      }
-    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Главная",
+          "href": "https://docs.houndvpn.net/"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Инструкции",
