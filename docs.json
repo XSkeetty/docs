@@ -18,10 +18,17 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "tabs": [
+      {
+        "tab": "Инструкции",
+        "pages": [
+          "test1",
+          "test2"
+        ]
+      }
+    ],
     "pages": [
-      "index",
-      "test1",
-      "test2"
+      "index"
     ]
   },
   "logo": {
