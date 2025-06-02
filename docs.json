@@ -18,12 +18,12 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "pages": [
+      "index"
+    ],
     "tabs": [
       {
         "tab": "Инструкции",
-        "pages": [
-          "index"
-        ],
         "groups": [
           {
             "group": "Подключение",
