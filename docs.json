@@ -22,13 +22,15 @@
       {
         "tab": "Инструкции",
         "pages": [
-          "test1",
-          "test2"
+          "index"
+        ]
+      },
+      {
+        "tab": "Статьи",
+        "pages": [
+          "index"
         ]
       }
-    ],
-    "pages": [
-      "index"
     ]
   },
   "logo": {
