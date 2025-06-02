@@ -23,6 +23,15 @@
         "tab": "Инструкции",
         "pages": [
           "index"
+        ],
+        "groups": [
+          {
+            "group": "Подключение",
+            "pages": [
+              "setup/ios",
+              "setup/android"
+            ]
+          }
         ]
       },
       {
