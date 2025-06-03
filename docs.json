@@ -21,32 +21,57 @@
     "tabs": [
       {
         "tab": "Инструкции",
-        "pages": [
-          "index",
+        "anchors": [
           {
-            "group": "Подключения",
-            "pages": [
-              "setup/ios",
-              "setup/android",
-              "setup/macos",
-              "setup/windows",
-              "setup/apple_tv",
-              "setup/android_tv",
-              "setup/router"
+            "anchor": "Главная",
+            "groups": [
+              {
+                "group": "",
+                "pages": [
+                  "index"
+                ]
+              }
+            ]
+          },
+          {
+            "anchor": "Подключения",
+            "groups": [
+              {
+                "group": "",
+                "pages": [
+                  "setup/ios",
+                  "setup/android"
+                ]
+              }
             ]
           }
         ]
       },
       {
-        "tab": "Статьи",
-        "pages": [
-          "index",
+        "tab": "API",
+        "anchors": [
           {
-            "group": "Безопасность",
-            "pages": [
-              "vpn_dangers",
-              "vpn_danger1",
-              "vpn_dangers2"
+            "anchor": "Главная",
+            "groups": [
+              {
+                "group": "",
+                "pages": [
+                  "index"
+                ]
+              }
+            ]
+          },
+          {
+            "anchor": "API Reference",
+            "groups": [
+              {
+                "group": "",
+                "pages": [
+                  "vpn_dangers",
+                  "vpn_dangers1",
+                  "vpn_dangers2"
+                ]
+              }
             ]
           }
         ]
