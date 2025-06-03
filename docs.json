@@ -21,57 +21,13 @@
     "tabs": [
       {
         "tab": "Инструкции",
-        "anchors": [
+        "pages": [
+          "index",
           {
-            "anchor": "Главная",
-            "groups": [
-              {
-                "group": "",
-                "pages": [
-                  "index"
-                ]
-              }
-            ]
-          },
-          {
-            "anchor": "Подключения",
-            "groups": [
-              {
-                "group": "",
-                "pages": [
-                  "setup/ios",
-                  "setup/android"
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API",
-        "anchors": [
-          {
-            "anchor": "Главная",
-            "groups": [
-              {
-                "group": "",
-                "pages": [
-                  "index"
-                ]
-              }
-            ]
-          },
-          {
-            "anchor": "API Reference",
-            "groups": [
-              {
-                "group": "",
-                "pages": [
-                  "vpn_dangers",
-                  "vpn_dangers1",
-                  "vpn_dangers2"
-                ]
-              }
+            "group": "Подключения",
+            "pages": [
+              "setup/ios",
+              "setup/android"
             ]
           }
         ]
