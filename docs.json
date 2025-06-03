@@ -31,6 +31,18 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Статьи",
+        "pages": [
+          {
+            "group": "Безопасность",
+            "pages": [
+              "vpn_dangers",
+              "vpn_dangers1"
+            ]
+          }
+        ]
       }
     ]
   },
