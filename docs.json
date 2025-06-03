@@ -20,8 +20,9 @@
   "navigation": {
     "anchors": [
       {
+        "anchor": "1",
         "pages": [
-        "index"
+          "index"
         ]
       }
     ],
