@@ -20,7 +20,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Инструкции",
+        "tab": "Главная",
         "pages": [
           "index",
           {
@@ -35,7 +35,6 @@
       {
         "tab": "Статьи",
         "pages": [
-          "index",
           {
             "group": "Безопасность",
             "pages": [
