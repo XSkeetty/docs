@@ -18,19 +18,16 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "anchors": [
-      {
-        "anchor": "1",
-        "pages": [
-          "index"
-        ]
-      }
-    ],
     "tabs": [
       {
         "tab": "Инструкции",
-        "pages": [
-          "index"
+        "anchors": [
+          {
+            "anchor": "1",
+            "pages": [
+              "index"
+            ]
+          }
         ],
         "groups": [
           {
