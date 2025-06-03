@@ -27,12 +27,14 @@
     "tabs": [
       {
         "tab": "Инструкции",
-        "groups": [
+        "pages": [
+          "index",
+
           {
-            "group": "Подключение",
+            "group": "Подключения",
             "pages": [
-              "setup/ios",
-              "setup/android"
+              "ios",
+              "android"
             ]
           }
         ]
