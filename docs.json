@@ -35,11 +35,11 @@
       {
         "tab": "Статьи",
         "pages": [
+          "index",
           {
             "group": "Безопасность",
             "pages": [
-              "vpn_dangers",
-              "vpn_dangers1"
+              "vpn_dangers"
             ]
           }
         ]
