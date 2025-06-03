@@ -23,6 +23,7 @@
         "tab": "Инструкции",
         "anchors": [
           {
+            "anchor": "Главная",
             "pages": [
               "index"
             ]
