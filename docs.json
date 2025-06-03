@@ -18,23 +18,21 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "anchors": [
-      {
-        "anchor": "test",
-        "pages": ["index"]
-      }
-    ],
     "tabs": [
       {
         "tab": "Инструкции",
         "pages": [
           "index",
-
           {
             "group": "Подключения",
             "pages": [
-              "ios",
-              "android"
+              "setup/ios",
+              "setup/android",
+              "setup/macos",
+              "setup/windows",
+              "setup/apple_tv",
+              "setup/android_tv",
+              "setup/router"
             ]
           }
         ]
