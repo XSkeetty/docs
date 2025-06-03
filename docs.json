@@ -32,7 +32,6 @@
         ],
         "anchors": [
           {
-            "anchor": "Главная",
             "pages": [
               "index"
             ]
