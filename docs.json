@@ -21,19 +21,19 @@
     "tabs": [
       {
         "tab": "Инструкции",
+          "anchors": [
+            {
+              "pages": [
+                "index"
+              ]
+            }
+          ],
         "groups": [
           {
             "group": "Подключение",
             "pages": [
               "setup/ios",
               "setup/android"
-            ]
-          }
-        ],
-        "anchors": [
-          {
-            "pages": [
-              "index"
             ]
           }
         ]
