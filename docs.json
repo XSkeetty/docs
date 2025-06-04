@@ -24,10 +24,15 @@
         "pages": [
           "index",
           {
-            "group": "Подключения",
+            "group": "Подключение",
             "pages": [
               "setup/ios",
-              "setup/android"
+              "setup/android",
+              "setup/macos",
+              "setup/windows",
+              "setup/apple_tv",
+              "setup/android_tv",
+              "router"
             ]
           }
         ]
