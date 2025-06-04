@@ -32,7 +32,7 @@
               "setup/windows",
               "setup/apple_tv",
               "setup/android_tv",
-              "router"
+              "setup/router"
             ]
           }
         ]
