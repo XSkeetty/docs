@@ -30,6 +30,7 @@
               "setup/android",
               "setup/macos",
               "setup/windows",
+              "setup/linux",
               "setup/apple_tv",
               "setup/android_tv",
               "setup/router"
